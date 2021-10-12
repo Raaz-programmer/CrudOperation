@@ -15,6 +15,11 @@ namespace CashBookKSS.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult Index()
+        {
+            return View();
+        }
 
     }
 }
